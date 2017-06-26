@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 var Film = require('./client/src/models/film');
 var Review = require('./client/src/models/review');
-var filmsSeedData = require('./client/src/models/films');
+var filmsSeedData = require('./client/src/models/films_seed_data');
 var films = filmsSeedData();
 
 
