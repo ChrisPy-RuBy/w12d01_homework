@@ -25,6 +25,7 @@ i.e. update the package.json file to
 -->"build": "webpack -w"  <----
 
 console - npm run build
+--> nodemon server.js. (edit package.json that nodemon runs instead)
 
 now add mocha to the webpack.config
 
@@ -48,7 +49,7 @@ now add mocha to the webpack.config
   }
 }
 
-
+---
 --> npm install --save-dev mocha ( to install mocha )
 --> npm test ( to run tests) 
  
