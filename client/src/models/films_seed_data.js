@@ -10,19 +10,21 @@ var filmsSeedData = function(){
   });
 
   var review2 = new Review({
-    comment: "Pew pew pew lightsabers space cowboys whoot what's not to love",
+    comment: "Pew pew pew lightsabers space cowboys whoot what's not to love vffff",
     rating: 100,
-    author: "Harrison"
+    author: "Harrison what what"
   });
 
   var film1 = new Film({
-    title: "Now You See Me",
-    actors: ["Woody Harrelson", "Jesse Eisenberg"]
+    title: "Now You See Me 2",
+    actors: ["Woody Harrelson", "Jesse Eisenberg"],
+    genre: "Bag 'o' shite"
   });
 
   var film2 = new Film({
     title: "Star Wars Episode IV: A New Hope",
-    actors: ["Harrison Ford", "Alec Guiness"]
+    actors: ["Harrison Ford", "Alec Guiness"],
+    genre: 'space porno'
   });
 
   film1.addReview(review1);

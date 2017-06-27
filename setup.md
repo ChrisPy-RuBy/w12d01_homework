@@ -16,7 +16,7 @@ Tell webpack to run by changing the package json to know how to run
 i.e. update the package.json file to 
 
 {
-  "name": "webpack_start_point",
+  "name": "webpack_start_point",  <-- change this to be correct
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
